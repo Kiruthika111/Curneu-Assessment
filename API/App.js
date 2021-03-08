@@ -25,7 +25,7 @@ export default class App extends React.Component  {
     .then( (responseJson) => {
         this.setState({
           isLoading: false,
-          dataSource: responseJson.datas,//movies,
+          dataSource: responseJson.data,
         })
     } )
 
